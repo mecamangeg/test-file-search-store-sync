@@ -1,0 +1,32 @@
+# AI-specific ignore patterns
+# Files that should not be synced to AI context stores
+
+# Scripts and tools (sync infrastructure itself)
+scripts/
+tools/
+
+# UI components (typically not needed for AI context)
+# components/ui/
+
+# Test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+
+# Generated files
+*.min.js
+*.min.css
+*.map
+*.d.ts
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Large data files
+*.csv
+*.xlsx
+*.pdf

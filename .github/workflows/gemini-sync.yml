@@ -1,0 +1,47 @@
+name: Sync to Gemini File Search
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-genai pathspec
+
+      - name: Restore manifest cache
+        uses: actions/cache@v4
+        with:
+          path: .file-search-manifest.json
+          key: file-search-manifest-v1-${{ github.sha }}
+          restore-keys: |
+            file-search-manifest-v1-
+
+      - name: Run sync script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FILE_SEARCH_STORE_ID: fileSearchStores/testfilesearchstoresync-p6z7cs4ggtyo
+        run: |
+          python scripts/sync_to_file_search.py
+
+      - name: Save manifest cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .file-search-manifest.json
+          key: file-search-manifest-v1-${{ github.sha }}
