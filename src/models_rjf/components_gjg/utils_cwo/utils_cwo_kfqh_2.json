@@ -1,0 +1,21 @@
+{
+  "name": "utils-cwo-kfqh-2",
+  "version": "1.0.0",
+  "description": "UtilsCwoKfqh2 configuration",
+  "generated": "2026-01-14T00:47:11.491955",
+  "module": "src/models_rjf/components_gjg/utils_cwo",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/models_rjf/components_gjg/utils_cwo"]
+  }
+}

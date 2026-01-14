@@ -1,0 +1,21 @@
+{
+  "name": "services-rqa-vntl-0",
+  "version": "1.0.0",
+  "description": "ServicesRqaVntl0 configuration",
+  "generated": "2026-01-14T00:47:12.070437",
+  "module": "src/config_sss/components_ecf/services_bxk/services_rqa",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/config_sss/components_ecf/services_bxk/services_rqa"]
+  }
+}

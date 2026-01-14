@@ -1,6 +1,9 @@
 # AI-specific ignore patterns
 # Files that should not be synced to AI context stores
 
+# Sync infrastructure
+.file-search-manifest.json
+
 # Scripts and tools (sync infrastructure itself)
 scripts/
 tools/

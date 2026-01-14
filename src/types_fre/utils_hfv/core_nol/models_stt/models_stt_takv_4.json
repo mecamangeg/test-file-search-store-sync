@@ -1,0 +1,21 @@
+{
+  "name": "models-stt-takv-4",
+  "version": "1.0.0",
+  "description": "ModelsSttTakv4 configuration",
+  "generated": "2026-01-14T00:47:12.993247",
+  "module": "src/types_fre/utils_hfv/core_nol/models_stt",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/types_fre/utils_hfv/core_nol/models_stt"]
+  }
+}

@@ -1,2 +1,6 @@
 # Claude temporary files
 tmpclaude-*
+
+# Sync artifacts (stored in GitHub Actions cache, not git)
+.file-search-manifest.json
+logs/

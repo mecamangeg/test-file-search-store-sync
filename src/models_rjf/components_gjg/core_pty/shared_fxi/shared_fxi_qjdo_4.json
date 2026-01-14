@@ -1,0 +1,21 @@
+{
+  "name": "shared-fxi-qjdo-4",
+  "version": "1.0.0",
+  "description": "SharedFxiQjdo4 configuration",
+  "generated": "2026-01-14T00:47:11.421253",
+  "module": "src/models_rjf/components_gjg/core_pty/shared_fxi",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/models_rjf/components_gjg/core_pty/shared_fxi"]
+  }
+}

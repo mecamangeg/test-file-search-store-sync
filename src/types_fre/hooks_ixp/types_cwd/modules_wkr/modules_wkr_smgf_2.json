@@ -1,0 +1,21 @@
+{
+  "name": "modules-wkr-smgf-2",
+  "version": "1.0.0",
+  "description": "ModulesWkrSmgf2 configuration",
+  "generated": "2026-01-14T00:47:12.718366",
+  "module": "src/types_fre/hooks_ixp/types_cwd/modules_wkr",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/types_fre/hooks_ixp/types_cwd/modules_wkr"]
+  }
+}

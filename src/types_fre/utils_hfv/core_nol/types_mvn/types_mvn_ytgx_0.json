@@ -1,0 +1,21 @@
+{
+  "name": "types-mvn-ytgx-0",
+  "version": "1.0.0",
+  "description": "TypesMvnYtgx0 configuration",
+  "generated": "2026-01-14T00:47:13.012400",
+  "module": "src/types_fre/utils_hfv/core_nol/types_mvn",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/types_fre/utils_hfv/core_nol/types_mvn"]
+  }
+}

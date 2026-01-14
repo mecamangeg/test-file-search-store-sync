@@ -1,0 +1,21 @@
+{
+  "name": "features-ntc-udfj-2",
+  "version": "1.0.0",
+  "description": "FeaturesNtcUdfj2 configuration",
+  "generated": "2026-01-14T00:47:11.982996",
+  "module": "src/config_sss/components_ecf/lib_evy/features_ntc",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/config_sss/components_ecf/lib_evy/features_ntc"]
+  }
+}

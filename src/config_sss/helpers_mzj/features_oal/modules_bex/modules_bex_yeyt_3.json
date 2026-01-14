@@ -1,0 +1,21 @@
+{
+  "name": "modules-bex-yeyt-3",
+  "version": "1.0.0",
+  "description": "ModulesBexYeyt3 configuration",
+  "generated": "2026-01-14T00:47:12.378517",
+  "module": "src/config_sss/helpers_mzj/features_oal/modules_bex",
+  "config": {
+    "enabled": true,
+    "debug": false,
+    "timeout": 5000,
+    "retries": 3
+  },
+  "dependencies": {
+    "core": "^1.0.0",
+    "utils": "^2.0.0"
+  },
+  "metadata": {
+    "author": "stress-test",
+    "tags": ["test", "generated", "src/config_sss/helpers_mzj/features_oal/modules_bex"]
+  }
+}
